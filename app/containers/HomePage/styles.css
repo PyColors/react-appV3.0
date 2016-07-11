@@ -1,0 +1,19 @@
+.second {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background: url(http://pycolors.com/we-dance/img/bg_1.jpg) no-repeat center center scroll;
+  padding: 10% 0;
+  text-align: center;
+}
+
+.second h3:first-child {
+  font-size: 1.9em;
+}
+
+.second h3 {
+  margin: 0 0 .25em;
+  font-size: 1.5em;
+  color: #fff;
+}

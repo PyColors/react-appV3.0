@@ -11,11 +11,23 @@
 
 import React from 'react';
 
+import H2 from 'components/H3';
+
+import styles from './styles.css';
+
 export default class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
   render() {
     return (
+      <div>
       <h1>This is the Homepage!</h1>
+
+      <section className={styles.second}>
+        <h3>Simple ! Sans stress. Sans pub.</h3>
+        <h3>Nous gérons des playlists personnalisées basées sur votre personnalité</h3>
+      </section>
+
+      </div>
     );
   }
 }
