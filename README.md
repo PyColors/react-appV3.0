@@ -1,13 +1,13 @@
 ### Running the app
 
-1. Clone this repo using $ git clone --depth=1 https://github.com/PyColors/react-appV3.0.git
+1. Clone this repo 
 
 2. Ensure you have `npm` installed. Follow the instructions for your platform [here](https://github.com/npm/npm).
 
 3. Install dependencies
 
   ````
-  npm run setup
+  npm install
   ````
 
 4. Start
